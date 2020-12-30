@@ -10,22 +10,29 @@
  height: 350px;
 margin:150px auto 80px ;
 padding:80px 80px ;
-box-shadow: ;
+box-shadow:0 ;
 }
 #content{
-    padding:77px 80px ;
+    padding:60px 80px ;
     margin-top:20px auto ;
     background:#2094a349;
+    transition:1s;
+}
+#card:hover{
+    transform: scale(1.2);
 }
 h1{
-font-size:60px ;
+font-size:57px ;
 color: rgba(255, 255, 255, 0.794);
+font-family: Comic Sans MS, Comic Sans, cursive;
 }
 h2{
 font-size:40px ;
 color: rgb(5, 5, 5);
 margin-left: 80px;
 margin-TOP: 10px;
+font-family: Arial, sans-serif;
+font-weight: normal;
 }
 ul{
 padding-left:20px ;
@@ -36,6 +43,7 @@ li {
     margin-bottom: 9px;
     color: rgb(7, 7, 7);
     font-style:unset;
+    font-family: Bradley Hand, cursive;
 }
 footer{
     text-align: center;
@@ -45,6 +53,7 @@ footer{
     color: rgba(241, 153, 11, 0.322);
     margin-top: 50px;
     background:#e445061e;
+    font-family: sans-serif;
 }
 body{
     background-color: rgba(192, 147, 23, 0.274);
